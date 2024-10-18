@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --lightblue: #E1ECFE;
+    --orange: #F5745A;
+    --darkblue: #0A365D;
+    --font: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    background-image: url('assests/login_bg.png');
+    background-size: 100%;
+    font-family: Montserrat;
+    
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+    background-color: var(--lightblue);
+    font-size: 1.2rem;
+    font-family: var(--font);
+    font-weight: bold;
+}
+
+.navlinks {
+    display: flex;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    
+}
+
+.navbar a {
+    text-decoration: none;
+    color: var(--darkblue);
+    transition: 0.3s;
+    
+}
+
+.navbar .logo {
+    padding-right: 5rem;
+}
+
+.navbar ul li {
+    padding-left: 1.5rem;
+    padding-right: 1rem;
+}
+
+.navbar a:hover{
+    color: var(--orange);
+}
+
+.login_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h2{
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+
+.logincontent{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    margin: auto;
+    height: 70vh;
+    background-image: url(assests/Mobile.png);
+    background-size: contain;
+    background-repeat: no-repeat; 
+    overflow: hidden;  
+}
+
+.logincontent form{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 1rem;
+    box-sizing: border-box;
+
+}
+
+.logincontent form input{
+    padding: 10px;
+    margin: 0.5rem;
+    margin-bottom: 1rem;
+    width: 300px;
+    border-radius: 4px;
+    border: none;
+    font-family: Montserrat;
+    background-color: var(--lightblue);
+    
+}
+
+.logincontent form button{
+    padding: 10px;
+    width: 300px;
+    margin: 0.5rem;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--orange);
+    font-family: Montserrat;
+    color: white;
+}
+
+.logincontent .rememberme input{
+    padding: 0px;
+    margin-bottom: 1rem;
+    width: 30px;
+    height: 15px;
+}
+
+.rememberme label{
+    height: 15px;
+    font-family: Montserrat;
+}
+.logincontent p{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.loginoptions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.loginoptions a img{
+    width: 40px;
+    height: 40px;
+    margin: 1rem;
+    padding: 5px;
+    border-radius: 1rem;
+    background-color: var(--lightblue);
+}
+
+.girlimage img{
+    z-index: 1;
+    position: relative;
+    top: -300px;
+    left: -200px;
+}
+
+
+
+
+
+
