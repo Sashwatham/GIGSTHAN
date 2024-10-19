@@ -14,8 +14,8 @@
 }
 body{
     
-    background-image: url('assests/login_bg.png');
-    background-size: 100%;
+    background-image: url('assests/background\ gif.gif');
+    background-size: contain;
     font-family: Montserrat;
     
 }
