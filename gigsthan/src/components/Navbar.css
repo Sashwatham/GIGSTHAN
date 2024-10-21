@@ -1,0 +1,12 @@
+.custom-text-color {
+    color: rgb(10, 54, 93);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .custom-btn-color {
+    color: white;
+    background-color: rgb(10, 54, 93);
+    border: 1px solid rgb(10, 54, 93);
+  }
+  .fd:hover {
+    opacity: 0.5;
+  }
